@@ -1,0 +1,42 @@
+#DIGINOMBRE{
+    background-color: #36ff0452;
+    color: blueviolet;
+    font-size: 30px;
+}
+#DIGIRANGO{
+    background-color: #04ffd9;
+    color: blueviolet;
+    font-size: 25px;
+
+
+}
+#BODY{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#digiimg{
+    transform: scale(1);
+    border: 30px solid #0468ff5f; /* Ancho, estilo y color del borde */
+    padding: 0px; /* Espacio interno entre el borde y la imagen */
+    display: inline-block; /* Mostrar como un elemento en línea con ancho automático */
+}
+    
+.search-bar {
+    display: flex; /* Mostrar los elementos en línea */
+  }
+  
+  .search-input {
+    flex-grow: 1; /* Hacer que el campo de entrada ocupe todo el espacio disponible */
+    padding: 10px; /* Espaciado interno del campo de entrada */
+    border: none; /* Quitar el borde predeterminado del campo de entrada */
+    border-radius: 4px; /* Agregar bordes redondeados al campo de entrada */
+  }
+  
+  .search-button {
+    padding: 10px; /* Espaciado interno del botón de búsqueda */
+    background-color: #007bff; /* Color de fondo del botón de búsqueda */
+    color: #fff; /* Color de texto del botón de búsqueda */
+    border: none; /* Quitar el borde del botón de búsqueda */
+    border-radius: 4px; /* Agregar bordes redondeados al botón de búsqueda */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón de búsqueda */
+  }
